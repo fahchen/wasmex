@@ -1,7 +1,7 @@
 defmodule Wasmex.MixProject do
   use Mix.Project
 
-  @version "0.6.0"
+  @version "0.6.1"
 
   def project do
     [
@@ -44,7 +44,7 @@ defmodule Wasmex.MixProject do
         ~w(lib native/wasmex/src native/wasmex/Cargo.* native/wasmex/README.md native/wasmex/.cargo .formatter.exs mix.exs README.md LICENSE.md CHANGELOG.md),
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/tessi/wasmex",
+        "GitHub" => "https://github.com/fahchen/wasmex",
         "Docs" => "https://hexdocs.pm/wasmex"
       },
       source_url: "https://github.com/tessi/wasmex"
